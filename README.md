@@ -1,3 +1,8 @@
-# mern-stack-expense-tracker-app
-This is an expense tracker app based on MERN ( MongoDB, Express, React, NodeJS ) stack. Its client side is made in React using React hooks and context API + useReducer() hook for the state management. I haven't used redux coz I felt context API + useReducer() hook is better and is the new way of handling the state management. And in the backend, I have used Express.js for the server side handling and MongoDB for storing the transactions in the database.<br/>
-<a href="https://mern-stack-expense-tracker-app.herokuapp.com/">Click here to see the app live!</a>
+## A Dynamic To Do List
+
+A simple To Do List where you can route on different routes like /home, /work, /shopping and each route will have its to-do-list.
+
+## Config Variables
+- [ ] Create a free account atlas account at [https://www.mongodb.com](https://www.mongodb.com) and set a new cluster connection url equal to `db_connection_URL`
+- [ ] Now, Click on 'Connect' and then on 'Connect your application' and get the url from there.
+- [ ] Paste The url into the mongodb configuration in the app.js file and replace the < password > with your user(admin) password.
